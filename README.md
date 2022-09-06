@@ -1,5 +1,5 @@
 # OAR-Dashboard
-Simple dashboard script to visualise dose to organs at risk (OARs). Values from the treatment plans as generated in [Box-Plots](../../../Box-Plots).
+Simple dashboard script to visualise dose to organs at risk (OARs). Values from the treatment plans as generated in [Box-Plots](../../../Box-Plots). The purpose of this code is to see how dose to OARs is affected by factors such as tumour size, target conformity or leaf width.
 
 ## Requirements
 For this code to work, you will need to provide a .csv file matching the format of the template provided. All volumes are in centimetres cubed [cc].
