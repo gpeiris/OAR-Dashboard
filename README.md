@@ -28,3 +28,5 @@ In the file app.py, enter the metrics to compare. The dashboard presents data in
 | `V5Gy`        | Percentage of OAR Volume receiving 5Gy                 | All                 |
 | `D5cc`        | Absolute dose received by 5cc of the OAR               | All                 |
 | `D0cc`        | Absolute dose received by 0cc of the OAR               | All                 |
+
+If the plot does not immediately open, the development server address will print in the terminal. Copy-paste the address into a web browser and the plot should open.
