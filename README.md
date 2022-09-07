@@ -3,7 +3,7 @@ Simple dashboard script to visualise dose to organs at risk (OARs). Values from 
 
 ## Requirements
 For this code to work, you will need to provide a .csv file matching the format of the template provided. All volumes are in centimetres cubed [cc].
-Python packages used are dash, plotly and pandas.
+Python packages used are dash, plotly and pandas, listed in requirements.txt .
 
 ## How It Works
 In the file app.py, enter the metrics to compare. The dashboard presents data in 4 dimensions: {x, y, size and colour}. Hovering over each data point will return all the values associated with that point. The metrics you can plot against are listed in the table below.
