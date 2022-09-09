@@ -16,23 +16,23 @@ The right-hand side displays the resulting graphs. On top is the PTV Volume agai
 
 If you wish to change what is being plotted against, as opposed to Volume and Conformity Index, edit lines 14 and 15 with one of the variables listed in the table below.
 
-| Variable Name | Description                                            | <!---Allowed Dimensions  |--->
-| ------------- | ------------------------------------------------------ | <!---------------------- |--->
-| `PlanID`      | MLC Leaf Width {2.5mm, 5mm, 10mm}                      | <!---All, except size    |--->
-| `Site`        | Anatomical Site {Prostate, Lung, Liver}                | <!---All, except size    |--->
-| `OAR`         | Organ at Risk {Total: 8}                               | <!---All, except size    |--->
-| `Volume`      | Volume of the Tumour (PTV) [cc]                        | <!---All                 |--->
-| `CI_RTOG100`  | Conformity Index of PTV, treated volume/planned volume | <!---All                 |--->
-| `ALPO`        | Average Leaf Pair Opening [mm]                         | <!---All                 |--->
-| `MUperGy`     | Monitor Units per Gy                                   | <!---All                 |--->
-| `V60Gy`       | Percentage of OAR Volume receiving 60Gy                | <!---All                 |--->
-| `V50Gy`       | Percentage of OAR Volume receiving 50Gy                | <!---All                 |--->
-| `V45Gy`       | Percentage of OAR Volume receiving 45Gy                | <!---All                 |--->
-| `V40Gy`       | Percentage of OAR Volume receiving 40Gy                | <!---All                 |--->
-| `V35Gy`       | Percentage of OAR Volume receiving 35Gy                | <!---All                 |--->
-| `V30Gy`       | Percentage of OAR Volume receiving 30Gy                | <!---All                 |--->
-| `V25Gy`       | Percentage of OAR Volume receiving 25Gy                | <!---All                 |--->
-| `V20Gy`       | Percentage of OAR Volume receiving 20Gy                | <!---All                 |--->
-| `V5Gy`        | Percentage of OAR Volume receiving 5Gy                 | <!---All                 |--->
-| `D5cc`        | Absolute dose received by 5cc of the OAR               | <!---All                 |--->
-| `D0cc`        | Absolute dose received by 0cc of the OAR               | <!---All                 |--->
+| Variable Name | Description                                            | Allowed Dimensions  |
+| ------------- | ------------------------------------------------------ | ------------------- |
+| `PlanID`      | MLC Leaf Width {2.5mm, 5mm, 10mm}                      | All, except size    |
+| `Site`        | Anatomical Site {Prostate, Lung, Liver}                | All, except size    |
+| `OAR`         | Organ at Risk {Total: 8}                               | All, except size    |
+| `Volume`      | Volume of the Tumour (PTV) [cc]                        | All                 |
+| `CI_RTOG100`  | Conformity Index of PTV, treated volume/planned volume | All                 |
+| `ALPO`        | Average Leaf Pair Opening [mm]                         | All                 |
+| `MUperGy`     | Monitor Units per Gy                                   | All                 |
+| `V60Gy`       | Percentage of OAR Volume receiving 60Gy                | All                 |
+| `V50Gy`       | Percentage of OAR Volume receiving 50Gy                | All                 |
+| `V45Gy`       | Percentage of OAR Volume receiving 45Gy                | All                 |
+| `V40Gy`       | Percentage of OAR Volume receiving 40Gy                | All                 |
+| `V35Gy`       | Percentage of OAR Volume receiving 35Gy                | All                 |
+| `V30Gy`       | Percentage of OAR Volume receiving 30Gy                | All                 |
+| `V25Gy`       | Percentage of OAR Volume receiving 25Gy                | All                 |
+| `V20Gy`       | Percentage of OAR Volume receiving 20Gy                | All                 |
+| `V5Gy`        | Percentage of OAR Volume receiving 5Gy                 | All                 |
+| `D5cc`        | Absolute dose received by 5cc of the OAR               | All                 |
+| `D0cc`        | Absolute dose received by 0cc of the OAR               | All                 |
