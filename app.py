@@ -12,7 +12,7 @@ df = pd.read_csv("data/OARMetricComp.csv")
 #DVHX = 'V5Gy'
 DVH_arr = ['V60Gy','V50Gy','V45Gy','V40Gy','V35Gy','V30Gy','V25Gy','V20Gy','V5Gy','D5cc','D0cc']
 xUpper = 'Volume'
-xLower = 'ALPO'
+xLower = 'CI_RTOG100'
 
 # Initialise the app
 app = dash.Dash(__name__)
