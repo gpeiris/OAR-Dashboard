@@ -12,7 +12,7 @@ df = pd.read_csv("data/OARMetricComp.csv")
 #DVHX = 'V5Gy'
 DVH_arr = ['V60Gy','V50Gy','V45Gy','V40Gy','V35Gy','V30Gy','V25Gy','V20Gy','V5Gy','D5cc','D0cc']
 xUpper = 'Volume'
-xLower = 'CI_RTOG100'
+xLower = 'ALPO'
 
 # Initialise the app
 app = dash.Dash(__name__)
@@ -126,7 +126,7 @@ def update_volume_v60(leaf_dropdown_val, oar_dropdown_val,dose_met):
 				hovermode='x',
 				autosize=True,
 				title={'text': xUpper+' v '+DVHX,'font':{'color':'white'},'x':0.5},
-				xaxis={'title': xUpper,'range':[0,df_sub['Volume'].max()]},
+				xaxis={'title': xUpper,'range':[0,df_sub[xUpper].max()]},
                                 yaxis={'title': DVHX,'range':[0,df_sub[DVHX].max()]},
 	),
 	}
@@ -172,8 +172,8 @@ def update_conformity_v60(leaf_dropdown_val, oar_dropdown_val,dose_met):
 				margin={'b':15},
 				hovermode='x',
 				autosize=True,
-				title={'text':'Conformity Index v '+DVHX,'font':{'color':'white'},'x':0.5},
-				xaxis={'title': xLower,'range':[0,df_sub['CI_RTOG100'].max()]},
+				title={'text': xLower+' v '+DVHX,'font':{'color':'white'},'x':0.5},
+				xaxis={'title': xLower,'range':[0,df_sub[xLower].max()]},
                                 yaxis={'title': DVHX,'range':[0,df_sub[DVHX].max()]},
 	),
 	}
